@@ -242,7 +242,7 @@ input[type="submit"]:active{
   margin-bottom: 10px;
 }
 
-.loginForm  input {
+/* .loginForm  input {
   border-radius: 20px;
 
 }
@@ -253,7 +253,7 @@ input[type="submit"]:active{
 }
  #emailLogin,#passwordLogin{
   border-radius:20px;
-} 
+}  */
 
 .loginButton{
   padding: 10px 20px;
