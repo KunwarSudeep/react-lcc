@@ -241,19 +241,19 @@ input[type="submit"]:active{
   font-size: 0.85rem;
   margin-bottom: 10px;
 }
-/* 
+
 .loginForm  input {
   border-radius: 20px;
 
-} */
+}
 
-/* .loginInput{
-  /* align-items: center; */
-  /* border-radius: 20px; */
-/* } */
-/* #emailLogin,#passwordLogin{
+ .loginInput{ 
+  align-items: center;
+  border-radius: 20px;
+}
+ #emailLogin,#passwordLogin{
   border-radius:20px;
-/* } */ 
+} 
 
 .loginButton{
   padding: 10px 20px;
