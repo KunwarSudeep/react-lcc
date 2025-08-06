@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: #0043b8 ;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container {
+  width: 15%;
+  border: 2px solid black;
+  height: 55vh;
+  border-radius: 5px;
+  padding: 1%;
+  margin-top: 20px;
+}
+.center {
+  text-align: center;
+  font-size: 15px;
+}
+
+.movie-card {
+  transition-duration: 0.1s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 2);
+}
+
+.search {
+  padding: 10px;
+}
+
+.search input {
+  padding: 10px;
+  width: 500px;
+}
+/* This is for button  */
+
+.btn {
+  margin: 10%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+
+/* This is for Hero Section */
+
+.hero {
+  display: flex;
+  height: 100vh;
+  font-family: Inconsolata, monospace;
+  width: 100%;
+}
+
+.right-side-hero,
+.left-side-hero {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* text-align: center; */
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-btn{
+    padding: 20px;
+}
+.left-side-hero {
+  font-size: 40px;
+}
+
+
+
+/* For Form */
+
+
+
+.body {
+  width: 100vw;
+  min-height: 100%;
+   font-family: 'Lexend', sans-serif;
+}
+
+.form {
+  padding: 50px;
+  border-radius: 20px;
+  margin: 100px auto;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.196);
+}
+
+h2{
+  color: #0043b8;
+}
+
+
+#firstname, #lastname, #email, #phone , #address, input[type="submit"], input[type="password"]{
+  padding:10px;
+  border-radius:10px;
+  border: 1px solid black;
+}
+
+.name ,.ep,.gender,.name-text,.ep-text{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.fn{
+  flex:1;
+}
+
+.ln{
+  flex:1;
+}
+
+
+
+.name #firstname {
+  flex: 1;
+  width: 100%;
+}
+
+.name #lastname {
+  flex: 1;
+  width: 100%;
+}
+
+.e{
+  flex:2;
+}
+
+.p{
+  flex:1;
+}
+
+.ep input[type="email"] {
+ flex:2;
+width: 100%;
+}
+
+.ep input[type="number"] {
+  flex:1;
+  width: 100%;
+}
+
+textarea {
+  font-family: 'Lexend', sans-serif;
+}
+
+
+input[type="submit"]{
+  padding:10px 50px;
+  margin:auto;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background:  #0043b8;
+}
+
+input[type="submit"]:hover{
+  background-color: #0146bde0;
+}
+
+input[type="submit"]:active{
+  background-color: #0044b854;
+}
+
+#date{
+  padding:10px;
+  width: 70%;
+}
+
+.date-of-birth{
+  display: flex;
+}
+
+.date-of-birth p{
+  /* width: 100%; */
+  padding: 10px 10px 10px 0px;
+}
+
+
+/* For Login Form */
+
+.loginForm{
+  max-width:400px;
+  margin: 50px auto;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #b4ccf8;
+  border-radius: 20px;
+
+}
+
+.loginForm > img{
+  width: 100px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.loginLabel{
+  display:block;
+  /* align-self: center; */
+}
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+/* 
+.loginForm  input {
+  border-radius: 20px;
+
+} */
+
+/* .loginInput{
+  /* align-items: center; */
+  /* border-radius: 20px; */
+/* } */
+/* #emailLogin,#passwordLogin{
+  border-radius:20px;
+/* } */ 
+
+.loginButton{
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* width: 100%; */
+}
